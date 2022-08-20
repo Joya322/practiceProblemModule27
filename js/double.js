@@ -24,7 +24,7 @@ document.getElementById("double-btn").addEventListener("click", function () {
     }
     else {
         //calculate double
-        const result = doubleNumber * doubleNumber;
+        const result = doubleNumber * 2;
 
         //showing the result
         const text = document.getElementById("double-value");

@@ -23,7 +23,7 @@ document.getElementById("triple-btn").addEventListener("click", function () {
     return;
   } else {
     //calculate triple
-    const result = tripleNumber * tripleNumber * tripleNumber;
+    const result = tripleNumber * 3;
 
     //showing the result
     const text = document.getElementById("triple-value");
